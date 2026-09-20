@@ -1,4 +1,4 @@
-# Project Data --- Pengolahan Dataset Fisika
+# Project Data Mata Kuliah Instrumentasi Cerdas
 
 Project ini berisi pengolahan tiga jenis dataset untuk tugas pengolahan
 data, yaitu **tabular, image, dan sequence**. Setiap dataset memiliki
@@ -39,6 +39,10 @@ visualisasi, serta analisis parameter.
 
 Notebook: `tabular/analysis_tabular.ipynb`
 
+> **Sumber Data:** Dataset diperoleh dari [Kaggle](https://www.kaggle.com/) —
+> *Crop Recommendation Dataset*. Dataset digunakan hanya untuk keperluan
+> pembelajaran/tugas pengolahan data.
+
 ## Dataset Image
 
 Folder: `citra/`
@@ -50,6 +54,10 @@ visualisasi, grayscale, representasi piksel sebagai data numerik,
 statistik intensitas, histogram, dan normalisasi piksel.
 
 Notebook: `citra/analysis_citra.ipynb`
+
+> **Sumber Data:** Dataset citra Galaxy diperoleh dari [Kaggle](https://www.kaggle.com/) —
+> *Galaxy Image Dataset*. Dataset digunakan hanya untuk keperluan
+> pembelajaran/tugas pengolahan citra.
 
 ## Dataset Sequence
 
@@ -66,6 +74,10 @@ pengurutan berdasarkan waktu, pengambilan parameter fisik, visualisasi
 terhadap waktu, statistik sequence, dan moving average.
 
 Notebook: `sequence/analysis_sequence.ipynb`
+
+> **Sumber Data:** Dataset *Air Quality UCI* diperoleh dari [Kaggle](https://www.kaggle.com/) —
+> *Air Quality UCI Dataset*. Dataset digunakan hanya untuk keperluan
+> pembelajaran/tugas pengolahan data sequence.
 
 ## Tujuan
 
@@ -86,8 +98,22 @@ Learning yang kompleks.
 -   PIL/Pillow
 -   Jupyter Notebook / Google Colab
 
+## Lisensi & Sumber Data
+
+Seluruh dataset yang digunakan dalam project ini **diperoleh dari Kaggle**
+(https://www.kaggle.com/). Hak cipta dan lisensi masing-masing dataset
+sepenuhnya mengikuti ketentuan yang tercantum pada halaman dataset di
+Kaggle.
+
+Dataset digunakan **hanya untuk keperluan pembelajaran, tugas akademik,
+dan penelitian non-komersial**. Jika kamu ingin menggunakan ulang dataset
+ini, silakan merujuk langsung ke sumber aslinya di Kaggle dan mematuhi
+lisensi yang berlaku.
+
 ## Catatan
 
 Setiap tahapan pengolahan pada notebook dijelaskan menggunakan Markdown
 atau komentar `#` agar fungsi dari setiap proses dapat dipahami dengan
 jelas.
+
+---
